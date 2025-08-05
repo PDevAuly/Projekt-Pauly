@@ -7,10 +7,10 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "cors": "^...",
-    "dotenv": "^...",
-    "express": "^...",
-    "pg": "^...",
-    "bcrypt": "^..."
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "pg": "latest",
+    "bcrypt": "latest"
   }
 }

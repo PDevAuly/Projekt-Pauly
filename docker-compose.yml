@@ -12,7 +12,7 @@ services:
 
   backend:
     build:
-      context: ./server
+      context: ./backend
       dockerfile: Dockerfile
     ports:
       - "5000:5000"
@@ -25,8 +25,8 @@ services:
     restart: always
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: paulydb
+      POSTGRES_PASSWORD: pauly2026!
+      POSTGRES_DB: postgres
     ports:
       - "5432:5432"
     volumes:
